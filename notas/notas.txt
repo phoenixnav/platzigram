@@ -1,0 +1,4 @@
+Notas para Javascript
+
+Package Jason 
+[Archivos manifiestos, manifest file, define modulo: nombre, descripcion, dependencia, scripts, version libreria.]
