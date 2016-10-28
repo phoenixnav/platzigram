@@ -1,1 +1,36 @@
 html
+  head
+    meta(charset='UTF-8')
+    title Platzigram
+    // Google fonts
+    link(href='https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script', rel='stylesheet')
+    link(rel='stylesheet', href='styles.platzigram.css')
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
+
+  body
+    section#main-container
+  
+
+  footer.site-footer
+  .container
+    .row
+      .col.s12.l3.center-align
+        a.dropdown-button.btn.btn-flat(href='#', data-activates='dropdown1') Idioma
+        ul#dropdown1.dropdown-content
+          li
+            a(href='#!') Inglés
+          li.divider
+          li
+            a(href='#!') ESpañol
+      .col.s12.l3.push-l5.center-align
+        | © | 2016 Platzigram
+
+
+  
+
+
+
+
+  script(src='jquery-3.1.0.min.js')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js')
+  script(src='js/app.js')
